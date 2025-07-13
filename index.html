@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Владимир Бартенев</title>
+
+  <!-- Подключаем шрифт Montserrat и иконки FontAwesome -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Наши стили -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Владимир Бартенев</div>
+    <nav>
+      <a href="#hero">Главная</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Связь</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <img src="img/profile.png" alt="Владимир Бартенев" class="photo">
+    <div class="intro">
+      <p>Меня зовут Владимир и я Python-разработчик. Я заинтересовался программированием еще в школе, начал занимать призовые места на олимпиадах:</p>
+      <ul>
+        <li>многократный призёр ВСОШ по математике и программированию</li>
+        <li>победитель отборочного этапа «Высшей пробы» по программированию</li>
+      </ul>
+      <p>После этого увлёкся backend-разработкой и реализовал несколько проектов, сейчас продолжаю учёбу в НИУ ВШЭ и делаю свои проекты.</p>
+    </div>
+    <div class="buttons">
+      <a href="#contacts" class="btn btn-primary">Связаться со мной</a>
+      <a href="resume.pdf" class="btn btn-secondary" download="Владимир_Бартенев_Резюме.pdf">Скачать резюме</a>
+    </div>
+  </section>
+
+  <!-- Technologies -->
+  <section class="technologies">
+    <h2>Используемые технологии</h2>
+    <div class="tech-list">
+      <img src="icons/python.svg" alt="Python">
+      <img src="icons/django.svg" alt="Django">
+      <img src="icons/fastapi.svg" alt="FastAPI">
+      <img src="icons/djrest.svg" alt="Django REST framework">
+      <img src="icons/github.svg" alt="GitHub">
+      <img src="icons/postgresql.svg" alt="PostgreSQL">
+      <img src="icons/nginx.svg" alt="Nginx">
+      <img src="icons/docker.svg" alt="Docker">
+      <img src="icons/flask.svg" alt="Flask">
+      <img src="icons/html5.svg" alt="HTML5">
+      <img src="icons/css3.svg" alt="CSS3">
+      <img src="icons/Postman.svg" alt="Postman">
+      <img src="icons/Jira.svg" alt="Jira">
+      <img src="icons/NumPy.svg" alt="NumPy">
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>Проекты</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="img/html-power.jpg" alt="Power of HTML">
+        <div class="desc">
+          <h3>HTML Tutorial</h3>
+          <a href="#">Click here to visit →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="img/css-magic.jpg" alt="Unlock CSS Magic">
+        <div class="desc">
+          <h3>CSS Tutorial</h3>
+          <a href="#">Click here to visit →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="education">
+    <h2>Образование</h2>
+    <div class="item">
+      <div class="school">
+        <img src="icons/hse.svg" alt="ВШЭ" class="school-logo">
+        <strong>Высшая школа экономики</strong>
+        <span class="year">2024–2028</span>
+      </div>
+      <p class="details">
+        Московский институт математики и электроники им. А. Н. Тихонова,<br>
+        Инфокоммуникационные технологии и системы связи,<br>
+        GPA 8.5
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer / Contacts -->
+  <footer id="contacts">
+    <h2>Контакты</h2>
+    <ul class="contacts">
+      <li><i class="fas fa-envelope"></i>vladimir@ebartenev.com</li>
+      <li><i class="fas fa-phone"></i>+7 (901) 456-00-99</li>
+      <li><i class="fab fa-telegram"></i>@vovanbart</li>
+    </ul>
+  </footer>
+</body>
+</html>
